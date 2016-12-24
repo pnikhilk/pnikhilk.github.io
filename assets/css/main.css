@@ -43,6 +43,16 @@
 		-webkit-text-size-adjust: none;
 	}
 
+/* Email Abstraction*/
+   email::after {
+    content: attr(data-domain);
+  }
+   email::before {
+    content: attr(data-user) "\0040";
+  }
+
+  <email data-user="pnikhilk" data-domain="gmail.com"/>
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -2100,7 +2110,7 @@
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: -25px 0;
 		padding-left: 1em;
 	}
 
