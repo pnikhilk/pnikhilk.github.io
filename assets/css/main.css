@@ -2345,6 +2345,7 @@
 		height: calc(1.75em + 6px);
 		line-height: 1.75em;
 		min-width: 10em;
+		width: 12em;
 		padding: 0 1.5em;
 		text-align: center;
 		text-decoration: none;
@@ -3051,7 +3052,7 @@
 		/* Main */
 
 			#main {
-				padding: 2.25em 1.5em 0.25em 1.5em;
+				padding: 2.25em 1.5em 2.0em 1.5em;
 			}
 
 				#main > section {
