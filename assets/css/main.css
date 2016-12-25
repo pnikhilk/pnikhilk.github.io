@@ -2873,11 +2873,11 @@
 
 /* Large */
 
-	@media screen and (max-width: 1280px) {
+/*	@media screen and (max-width: 1280px) {
 
 		/* Header */
 
-			#header {
+/*			#header {
 				padding: 6em 3em 3em 3em;
 				height: 80%;
 				width: 25%;
@@ -2893,7 +2893,7 @@
 
 		/* Footer */
 
-			#footer .copyright li {
+/*			#footer .copyright li {
 				border-left-width: 0;
 				display: block;
 				line-height: 2.25em;
@@ -2903,11 +2903,11 @@
 
 		/* Main */
 
-			#main {
+/*			#main {
 				margin-left: 35%;
 				max-width: none;
 				padding: 6em 3em 3em 3em;
-				width: calc(100% - 45%);
+				width: calc(100% - 4s5%);
 			}
 
 	}
